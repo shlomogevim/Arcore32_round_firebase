@@ -52,5 +52,15 @@ sealed class Model {
             get() = 180f
     }
 
+    object GoldenFish : Model() {
+        override val degresPerSeconds: Float
+            get() = 20f
+        override val radius: Float
+            get() = 2f
+        override val height: Float
+            get() = 0.7f
+        override val rotateToDegrees: Float
+            get() = 180f
+    }
 
 }
